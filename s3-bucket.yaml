@@ -2,4 +2,6 @@
 Resources:
   MyS3Bucket:
     Type: AWS::s3::Bucket
-    Properties: {}
+    Properties:
+      AccessControl: PublicRead
+      BucketName: "ENTER YOUR BUCKET NAME HERE"
